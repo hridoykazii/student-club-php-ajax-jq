@@ -1,0 +1,12 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header-main{
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px;
+    background: #609f1c;
+    text-align: center;
+}
