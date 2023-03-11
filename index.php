@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -62,7 +64,7 @@
         </div>
         <div class="row justify-content-center align-items-center g-2">
             <div class="col">
-                <table class="table">
+                <table class="table" onclick="studentDetailsDisplay()">
                     <thead>
                         <tr>
                             <th scope="col">ID</th>
@@ -73,7 +75,7 @@
                             <th scope="col">Action</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody id="dataRcv">
                         
                     </tbody>
                 </table>
